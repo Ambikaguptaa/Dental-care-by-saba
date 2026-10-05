@@ -1,0 +1,21 @@
+{
+  "name": "Dental by Saba",
+  "short_name": "Dental by Saba",
+  "description": "Personalised dental and smile care in Mumbai, with a gentle, modern approach focused on patient comfort and confidence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#F5E9E5",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

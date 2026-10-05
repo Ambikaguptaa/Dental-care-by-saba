@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blush-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5F3" />
+      <stop offset="50%" stop-color="#F5E9E5" />
+      <stop offset="100%" stop-color="#ECD7D3" />
+    </linearGradient>
+    <linearGradient id="rose-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB1AB" />
+      <stop offset="100%" stop-color="#C5857E" />
+    </linearGradient>
+    <linearGradient id="s-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D1C22" />
+      <stop offset="100%" stop-color="#4F242C" />
+    </linearGradient>
+  </defs>
+  <!-- Background Squircle -->
+  <rect x="20" y="20" width="472" height="472" rx="118" ry="118" fill="url(#blush-bg)" stroke="url(#rose-border)" stroke-width="14" />
+  <!-- Inner Delicate Accent Ring -->
+  <rect x="34" y="34" width="444" height="444" rx="104" ry="104" fill="none" stroke="#FAF1EE" stroke-width="3.5" opacity="0.8" />
+  <!-- Monogram S -->
+  <g transform="translate(111.53, 411.66) scale(0.21940, -0.21940)">
+    <path d="M664 -38Q534 -38 421.5 -6.0Q309 26 231 70L162 0H77L64 513H150Q179 440 224.0 359.0Q269 278 328 214Q389 147 464.5 105.0Q540 63 641 63Q777 63 849.5 129.5Q922 196 922 297Q922 380 860.5 436.5Q799 493 670 534Q586 561 515.5 584.0Q445 607 383 631Q240 688 170.5 794.0Q101 900 101 1031Q101 1114 137.0 1190.5Q173 1267 242 1328Q308 1385 411.0 1421.0Q514 1457 635 1457Q753 1457 856.0 1424.5Q959 1392 1018 1359L1079 1419H1166L1174 935H1088Q1058 1013 1017.5 1094.5Q977 1176 932 1230Q883 1288 819.0 1322.5Q755 1357 669 1357Q561 1357 492.5 1296.0Q424 1235 424 1145Q424 1060 483.5 1006.0Q543 952 669 911Q743 886 820.0 861.0Q897 836 957 813Q1102 757 1177.5 658.5Q1253 560 1253 414Q1253 322 1210.0 236.0Q1167 150 1094 93Q1014 30 909.0 -4.0Q804 -38 664 -38Z" fill="url(#s-fill)" />
+  </g>
+</svg>
